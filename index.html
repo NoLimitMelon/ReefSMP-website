@@ -1,0 +1,1029 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>ReefSMP - A Minecraft Server</title>
+    <meta name="description" content="ReefSMP is a community-driven Minecraft SMP supporting Premium & Cracked players. Join a balanced survival world with active staff and events" />
+    <link rel="icon" type="image/x-icon" href="favicon.ico" />
+    
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="ReefSMP - A Minecraft Server" />
+    <meta property="og:description" content="Explore, build, and rise among legends with your friends in our unique survival world!" />
+    <meta property="og:image" content="https://ReefSMP.fun/256x256tblogo.png" />
+    <meta property="og:url" content="https://ReefSMP.fun" />
+    <meta property="og:type" content="website" />
+    
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="ReefSMP - A Minecraft Server" />
+    <meta name="twitter:description" content="Explore, build, and rise among legends with your friends in our unique survival world!" />
+    <meta name="twitter:image" content="https://ReefSMP.fun/256x256tblogo.png" />
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <header class="navbar navbar-expand-lg navbar-dark fixed-top">
+      <div class="navbar-container">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav" aria-controls="mainNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        
+        <div class="navbar-content collapse navbar-collapse" id="mainNav">
+          <!-- Sol Menü -->
+          <ul class="navbar-nav navbar-left">
+            <li class="nav-item"><a class="nav-link" href="#rules" data-i18n="nav_rules">Rules</a></li>
+            <li class="nav-item"><a class="nav-link" href="#tos" data-i18n="nav_tos">ToS</a></li>
+            <li class="nav-item"><a class="nav-link" href="#imprint" data-i18n="nav_imprint">Imprint</a></li>
+          </ul>
+
+          <!-- Logo Ortada -->
+          <a class="navbar-brand" href="#hero">
+            <img src="256x256tblogo.png" alt="Logo" class="logo-img">
+          </a>
+
+          <!-- Sağ Menü -->
+          <ul class="navbar-nav navbar-right">
+            <li class="nav-item"><a class="nav-link" href="#privacy" data-i18n="nav_privacy">Privacy</a></li>
+            <li class="nav-item"><a class="nav-link" href="#ReefSMPplayers" data-i18n="nav_faq">Reviews</a></li>
+            <li class="nav-item"><a class="nav-link" href="#faq" data-i18n="nav_faq">FAQ</a></li>
+            <li class="nav-item dropdown language-dropdown">
+              <a class="nav-link" href="#" id="langDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <img src="https://flagcdn.com/w40/us.png" alt="TR" class="flag-icon" id="currentFlag">
+              </a>
+<!--              <div class="dropdown-menu language-menu" aria-labelledby="langDropdown">
+                <div class="language-title">Language</div>
+                <a class="dropdown-item" href="#" data-lang="cz" data-flag="cz">
+                  <img src="https://flagcdn.com/w40/cz.png" alt="Czech" class="flag-icon">
+                  <span>Czech</span>
+                </a>
+                <a class="dropdown-item" href="#" data-lang="dk" data-flag="dk">
+                  <img src="https://flagcdn.com/w40/dk.png" alt="Danish" class="flag-icon">
+                  <span>Danish</span>
+                </a>
+                <a class="dropdown-item" href="#" data-lang="en" data-flag="gb">
+                  <img src="https://flagcdn.com/w40/gb.png" alt="English" class="flag-icon">
+                  <span>English</span>
+                </a>
+                <a class="dropdown-item" href="#" data-lang="es" data-flag="es">
+                  <img src="https://flagcdn.com/w40/es.png" alt="Spanish" class="flag-icon">
+                  <span>Spanish</span>
+                </a>
+                <a class="dropdown-item" href="#" data-lang="de" data-flag="de">
+                  <img src="https://flagcdn.com/w40/de.png" alt="German" class="flag-icon">
+                  <span>German</span>
+                </a>
+                <a class="dropdown-item" href="#" data-lang="fr" data-flag="fr">
+                  <img src="https://flagcdn.com/w40/fr.png" alt="French" class="flag-icon">
+                  <span>French</span>
+                </a>
+                <a class="dropdown-item" href="#" data-lang="il" data-flag="il">
+                  <img src="https://flagcdn.com/w40/il.png" alt="Hebrew" class="flag-icon">
+                  <span>Hebrew</span>
+                </a>
+                <a class="dropdown-item" href="#" data-lang="it" data-flag="it">
+                  <img src="https://flagcdn.com/w40/it.png" alt="Italian" class="flag-icon">
+                  <span>Italian</span>
+                </a>
+                <a class="dropdown-item" href="#" data-lang="nl" data-flag="nl">
+                  <img src="https://flagcdn.com/w40/nl.png" alt="Dutch" class="flag-icon">
+                  <span>Dutch</span>
+                </a>
+                <a class="dropdown-item" href="#" data-lang="no" data-flag="no">
+                  <img src="https://flagcdn.com/w40/no.png" alt="Norwegian" class="flag-icon">
+                  <span>Norwegian</span>
+                </a>
+                <a class="dropdown-item" href="#" data-lang="br" data-flag="br">
+                  <img src="https://flagcdn.com/w40/br.png" alt="Portuguese (BR)" class="flag-icon">
+                  <span>Portuguese</span>
+                </a>
+                <a class="dropdown-item" href="#" data-lang="pt" data-flag="pt">
+                  <img src="https://flagcdn.com/w40/pt.png" alt="Portuguese (PT)" class="flag-icon">
+                  <span>Portuguese</span>
+                </a>
+                <a class="dropdown-item" href="#" data-lang="pl" data-flag="pl">
+                  <img src="https://flagcdn.com/w40/pl.png" alt="Polish" class="flag-icon">
+                  <span>Polish</span>
+                </a>
+                <a class="dropdown-item" href="#" data-lang="ro" data-flag="ro">
+                  <img src="https://flagcdn.com/w40/ro.png" alt="Romanian" class="flag-icon">
+                  <span>Romanian</span>
+                </a>
+                <a class="dropdown-item" href="#" data-lang="ru" data-flag="ru">
+                  <img src="https://flagcdn.com/w40/ru.png" alt="Russian" class="flag-icon">
+                  <span>Russian</span>
+                </a>
+                <a class="dropdown-item" href="#" data-lang="ja" data-flag="jp">
+                  <img src="https://flagcdn.com/w40/jp.png" alt="Japanese" class="flag-icon">
+                  <span>Japanese</span>
+                </a>
+                <a class="dropdown-item" href="#" data-lang="zh" data-flag="cn">
+                  <img src="https://flagcdn.com/w40/cn.png" alt="Chinese" class="flag-icon">
+                  <span>Chinese</span>
+                </a>
+                <a class="dropdown-item" href="#" data-lang="ar" data-flag="sa">
+                  <img src="https://flagcdn.com/w40/sa.png" alt="Arabic" class="flag-icon">
+                  <span>Arabic</span>
+                </a>
+                <a class="dropdown-item" href="#" data-lang="se" data-flag="se">
+                  <img src="https://flagcdn.com/w40/se.png" alt="Swedish" class="flag-icon">
+                  <span>Swedish</span>
+                </a>
+                <a class="dropdown-item" href="#" data-lang="tr" data-flag="tr">
+                  <img src="https://flagcdn.com/w40/tr.png" alt="Turkish" class="flag-icon">
+                  <span>Turkish</span>
+                </a>
+                <a class="dropdown-item" href="#" data-lang="ua" data-flag="ua">
+                  <img src="https://flagcdn.com/w40/ua.png" alt="Ukrainian" class="flag-icon">
+                  <span>Ukrainian</span>
+                </a> -->
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </header>
+    <div class="news-bar-wrapper">
+  <div class="news-bar">
+    <span class="news-label">NEWS:</span>
+    <span class="news-text">Our new peak is 36!</span>
+  </div>
+</div>
+
+
+<!-- Hero Section -->
+<section id="hero" class="hero d-flex align-items-center">
+<div class="video-background">
+    <video autoplay muted loop playsinline preload="metadata" poster="assets/hero-poster.jpg" id="bgVideo">
+        <source src="assets/video.mp4" type="video/mp4">
+    </video>
+</div>
+
+  <div class="container position-relative text-center text-lg-start">
+    <div class="row align-items-center">
+      
+      <!-- Left Content -->
+      <div class="col-lg-6">
+        <span class="badge bg-success-subtle text-success mb-3">
+          Minecraft 1.21.x
+        </span>
+
+        <h1 class="display-4 fw-bold mt-3 text-shadow fade-up" data-i18n="hero_title">
+          Join the Adventure!
+        </h1>
+
+        <p class="lead text-light-50 mb-4 fade-up delay-1" data-i18n="hero_subtitle">
+          A community-driven survival world built for teamwork and unforgettable times.
+        </p>
+
+        <!-- Top Button Row -->
+        <div class="d-flex flex-column flex-sm-row gap-3 fade-up delay-2 mb-3">
+          <a class="btn btn-success btn-lg px-4" href="https://discord.gg/reefnetwork" data-i18n="btn_join_server">
+            Join the Discord
+          </a>
+
+          <a class="btn btn-success btn-lg px-4" href="https://store.reefsmp.fun" target="_blank">
+            Checkout the Store!
+          </a>
+
+          <a class="btn btn-outline-light btn-lg px-4" href="#faq" data-i18n="btn_faq">
+            Frequently Asked Questions
+          </a>
+
+        </div>
+
+      </div>
+
+      <!-- Right Card -->
+      <div class="col-lg-6 text-center text-lg-end mt-5 mt-lg-0 fade-left">
+        <div class="hero-card">
+          <img
+            src="256x256tblogo.png"
+            alt="ReefSMP Logo"
+            class="server-logo-img mb-3"
+            loading="lazy"
+          >
+
+          <h2 class="h4 fw-bold mb-3 text-uppercase" data-i18n="server_ip_title">
+            Server IP
+          </h2>
+
+          <div class="ip-box">
+            ReefSMP.fun
+          </div>
+
+          <p class="text-light-50 small mb-0" data-i18n="server_info">
+            Premium & BedRock supported & Cracked supported not yet • 100% uptime
+          </p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="hero-overlay"></div>
+</section>
+
+<main>
+  <!-- What Is ReefSMP Section -->
+  <section id="Whoarewe" class="section">
+    <div class="container">
+      <div class="section-title text-center fade-up">
+        <h2>What Is ReefSMP?</h2>
+        <p>Everything you need to know about the ReefSMP network</p>
+      </div>
+
+      <div class="row g-4">
+
+        <!-- About ReefSMP -->
+        <div class="col-md-6 col-lg-4 fade-up">
+          <div class="card h-100 shadow-sm border-0">
+            <div class="card-body">
+              <h3 class="card-title h5">🌊 About ReefSMP</h3>
+              <p class="card-text small">
+                ReefSMP is a competitive Minecraft network focused on survival,
+                events, and skill-based gameplay. We aim to provide a fair,
+                fun, and high-quality experience for both casual and competitive players.
+              </p>
+              <p class="card-text small">
+                Whether you enjoy building, PvP, grinding, or events,
+                ReefSMP offers a place for every playstyle.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Our Gameplay -->
+        <div class="col-md-6 col-lg-4 fade-up delay-1">
+          <div class="card h-100 shadow-sm border-0">
+            <div class="card-body">
+              <h3 class="card-title h5">⚔️ Gameplay</h3>
+              <ul class="card-text small">
+                <li>Survival SMP with a player-driven economy</li>
+                <li>Competitive PvP and skill-based combat</li>
+                <li>Regular events with rewards and prizes</li>
+                <li>Balanced gameplay with active moderation</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <!-- Our Community -->
+        <div class="col-md-6 col-lg-4 fade-up delay-2">
+          <div class="card h-100 shadow-sm border-0">
+            <div class="card-body">
+              <h3 class="card-title h5">👥 Community & Vision</h3>
+              <p class="card-text small">
+                ReefSMP is built around a strong and active community.
+                We focus on fair play, transparency, and long-term development.
+              </p>
+              <p class="card-text small">
+                Our goal is to keep ReefSMP fresh with
+                events, updates, and features, without unnecessary delays.
+              </p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="text-center mt-4">
+        <p class="small text-muted">
+          ReefSMP is constantly evolving. For announcements, updates,
+          and full information, make sure to join our Discord server. 
+          
+        </p>
+      </div>
+    </div>
+  </section>
+</main>
+
+
+<!-- Servers Section -->
+<section id="ReefSMPplayers" class="section bg-dark">
+  <div class="container">
+    <div class="section-title text-center fade-up">
+      <h2>🌊 What Servers Does ReefSMP Have?</h2>
+      <p data-i18n="social_subtitle">
+        Here is a list of the servers we currently have on our network
+      </p>
+    </div>
+
+    <div class="row g-4 justify-content-center">
+
+      <!-- Hub -->
+      <div class="col-md-3 col-6 fade-up">
+        <a class="social-link" href="#" target="_blank">
+          <span>Hub</span>
+          <span>
+            The hub is where you spawn when you join the server.
+            It is a portal to all ReefSMP servers!
+          </span>
+        </a>
+      </div>
+
+      <!-- Survival SMP -->
+      <div class="col-md-3 col-6 fade-up delay-1">
+        <a class="social-link" href="#" target="_blank">
+          <span>Shop Survival (In Working)</span>
+          <span>
+            A player-run economy SMP. Build powerful farms, trade with players,
+            raid bases, and team up to become the strongest on the server!
+          </span>
+        </a>
+      </div>
+
+      <!-- Events -->
+      <div class="col-md-3 col-6 fade-up delay-2">
+        <a class="social-link" href="#" target="_blank">
+          <span>MaceMaina (In Working) </span>
+          <span>
+            Participate in exciting events and competitions.
+            Win prizes, rewards, and prove your skills against other players!
+          </span>
+        </a>
+      </div>
+  </div>
+</section>
+
+  
+
+<main>
+  <!-- Rules Section -->
+  <section id="rules" class="section">
+    <div class="container">
+      <div class="section-title text-center fade-up">
+        <h2>Server Rules</h2>
+        <p>By playing on ReefSMP, you agree to follow these rules at all times.</p>
+      </div>
+
+      <div class="row g-4">
+        <!-- General Rules -->
+        <div class="col-md-6 col-lg-4 fade-up">
+          <div class="card h-100 shadow-sm border-0">
+            <div class="card-body">
+              <h3 class="card-title h5">📜 General Rules</h3>
+              <ul class="card-text small">
+                <li>No abusing bugs or glitches. This may result in an <strong>account wipe</strong>.</li>
+                <li>Do not impersonate staff members.</li>
+                <li>All store purchases are final and non-refundable.</li>
+                <li>No attempted or actual item duplication.</li>
+                <li>Teaming with a bug abuser or glitcher will result in punishment for the entire team.</li>
+                <li>When a new giveaway is active, previous giveaways are no longer redeemable.</li>
+                <li>Do not find, share, or use the world seed.</li>
+                <li>Do not discuss or promote other SMP servers, including in your status.</li>
+                <li>Rank rewards and names may be changed at any time.</li>
+                <li>Do not lie to staff members under any circumstances.</li>
+                <li><strong>Absolutely no doxxing, swatting, or DDoS attacks.</strong></li>
+                <li>All bugs and glitches must be reported via Discord.</li>
+                <li>item-based scamming is allowed</li>
+                <li>Real-money scamming is not allowed. Exchanging in-game items or currency for store purchases is allowed at your own risk.</li>
+                <li>Be respectful to staff members at all times.</li>
+                <li>Ban evasion is strictly prohibited.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <!-- Client Rules -->
+        <div class="col-md-6 col-lg-4 fade-up delay-1">
+          <div class="card h-100 shadow-sm border-0">
+            <div class="card-body">
+              <h3 class="card-title h5">🖥️ Client Rules</h3>
+              <ul class="card-text small">
+                <li>No hacked or modified clients.</li>
+                <li>No auto-reconnect mods.</li>
+                <li>No movement-altering mods (speed, fly, etc.).</li>
+                <li>No inventory-related mods.</li>
+                <li>No health, damage, or radar indicators.</li>
+                <li>No X-ray, ESP, or similar tools.</li>
+                <li>No freecam usage.</li>
+                <li>No auto-placement tools.</li>
+                <li>No macros, auto-clickers, or scripts.</li>
+                <li>Duping is not allowed, even pretending to dupe may result in punishment.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <!-- Chat Rules -->
+        <div class="col-md-6 col-lg-4 fade-up delay-2">
+          <div class="card h-100 shadow-sm border-0">
+            <div class="card-body">
+              <h3 class="card-title h5">💬 Chat Rules</h3>
+              <ul class="card-text small">
+                <li>Do not ask staff or owners to review staff or developer applications.</li>
+                <li>Do not ask staff for keyalls or in-game items.</li>
+                <li>Do not ask for staff positions.</li>
+                <li>No spamming, flooding, or chat riots.</li>
+                <li>No harassment, bullying, or abuse.</li>
+                <li>No sharing personal information (doxxing).</li>
+                <li>No advertising or self-promotion, including other SMPs or DMs.</li>
+                <li>No racism, hate speech, or discriminatory remarks.</li>
+                <li>No selling or trading for real money.</li>
+                <li>No death threats or encouragement of self-harm.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="text-center mt-4">
+        <p class="small text-muted">
+          These rules may change at any time. By playing on this server or joining the discord, you agree to all rules listed above and to Discord’s
+          <a href="https://discord.com/terms" target="_blank">Terms of Service</a> and
+          <a href="https://discord.com/guidelines" target="_blank">Community Guidelines</a>.
+          
+          This page may not always be up to date., Join the discord to get n up-to-date version
+        </p>
+      </div>
+    </div>
+  </section>
+
+      <!-- ToS Section -->
+      <section id="tos" class="section bg-dark">
+        <div class="container">
+          <div class="section-title text-center fade-up">
+            <h2 data-i18n="tos_title">Terms of Service (ToS)</h2>
+            <p data-i18n="tos_subtitle">Anyone using our services is deemed to have accepted these terms</p>
+          </div>
+          <div class="row g-4">
+            <div class="col-lg-6 fade-up">
+              <div class="tos-item">
+                <h3 data-i18n="tos1_title">Service Scope</h3>
+                <p data-i18n="tos1_desc">The server, web services, and launcher infrastructure are provided by ReefSMP. Reasonable efforts will be made to ensure service continuity.</p>
+              </div>
+            </div>
+            <div class="col-lg-6 fade-up delay-1">
+              <div class="tos-item">
+                <h3 data-i18n="tos2_title">Account Responsibility</h3>
+                <p data-i18n="tos2_desc">Account security is the player's responsibility. Please contact our support team if you detect any unauthorized access.</p>
+              </div>
+            </div>
+            <div class="col-lg-6 fade-up delay-2">
+              <div class="tos-item">
+                <h3 data-i18n="tos3_title">Payments & Refunds</h3>
+                <p data-i18n="tos3_desc">All Store purchases are final. But in case of backend issue when we cannot give you the product, a refund will be given, The store also takes tax we cannot give those back</p>
+              </div>
+            </div>
+            <div class="col-lg-6 fade-up delay-3">
+              <div class="tos-item">
+                <h3 data-i18n="tos4_title">Sanctions</h3>
+                <p data-i18n="tos4_desc">In the event of a rule violation, a warning, temporary suspension, or permanent ban may be issued. The reasons for moderation decisions will be shared internally with staff members only and will not be disclosed to other players or members.</p>
+              </div>
+            </div>
+
+<div class="text-center mt-5 fade-up">
+    <a href="TermsOfService.html" class="btn btn-success btn-lg">
+        Read Full Terms of Service for <span class="nav-link" data-i18n="nav_tos">ToS</span>
+    </a>
+</div>  
+          </div>
+        </div>
+      </section>
+
+      <!-- Imprint Section -->
+      <section id="imprint" class="section">
+        <div class="container">
+          <div class="section-title text-center fade-up">
+            <h2 data-i18n="imprint_title">Imprint / Legal Information</h2>
+            <p data-i18n="imprint_subtitle">Our company and license information</p>
+          </div>
+          <div class="row g-4">
+            <div class="col-md-6 fade-up">
+              <div class="info-card">
+                <h3 data-i18n="company_info">Company Information</h3>
+                <ul class="list-unstyled">
+                  <li><strong data-i18n="company_name_label">company:</strong> <span data-i18n="company_name">ReefSMP</span></li>
+                  <li><strong data-i18n="company_address_label">Address:</strong> <span data-i18n="company_address">United States</span></li>
+                  <li><strong data-i18n="company_contact_label">Contact:</strong> <span>contact@reefsmp.fun</span></li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-md-6 fade-up delay-1">
+              <div class="info-card">
+                <h3 data-i18n="license_title">License and Copyright</h3>
+                <p data-i18n="license_desc">All assets in the game are subject to Mojang Studios' Minecraft EULA. Server-specific scripts and models belong to ReefSMP.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Privacy Section -->
+      <section id="privacy" class="section bg-dark">
+        <div class="container">
+          <div class="section-title text-center fade-up">
+            <h2 data-i18n="privacy_title">Privacy Policy</h2>
+            <p data-i18n="privacy_subtitle">We take data protection seriously</p>
+          </div>
+          <div class="row g-4">
+            <div class="col-lg-4 fade-up">
+              <div class="privacy-card">
+                <h3 data-i18n="privacy1_title">Collected Data</h3>
+                <p data-i18n="privacy1_desc">IP addresses, in-game statistics, store transactions, and support logs are all stored in secure database</p>
+              </div>
+            </div>
+            <div class="col-lg-4 fade-up delay-1">
+              <div class="privacy-card">
+                <h3 data-i18n="privacy2_title">Retention Period</h3>
+                <p data-i18n="privacy2_desc">As long as the player account is active, data is stored in Secure database</p>
+              </div>
+            </div>
+            <div class="col-lg-4 fade-up delay-2">
+              <div class="privacy-card">
+                <h3 data-i18n="privacy3_title">Your Rights</h3>
+                <p data-i18n="privacy3_desc">You can request access, correction, deletion, and transfer rights for your data by making an ticket in the discord!</p>
+          </p>
+          </div>
+          </div>
+          </div>
+          
+          <!-- Centered Button -->
+          <div class="text-center mt-5 fade-up">
+            <a href="PrivacyPolicy.html" class="btn btn-success btn-lg">
+              Privacy Policy
+            </a> 
+          </div>
+          
+          </div>
+          </section>
+      <!-- Social Links Section -->
+      <section id="social" class="section">
+        <div class="container">
+          <div class="section-title text-center fade-up">
+            <h2 data-i18n="social_title">Social Media & Community</h2>
+            <p data-i18n="social_subtitle">Follow the latest news and events</p>
+          </div>
+          <div class="row g-4 justify-content-center">
+            <div class="col-md-3 col-6 fade-up">
+              <a class="social-link" href="https://www.tiktok.com/@reefsmp0" target="_blank" aria-label="Tiktok'da Takip Edin">
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M19.589 6.686a4.91 4.91 0 0 1-3.09-1.09a4.86 4.86 0 0 1-1.52-2.32H11.2v11.62a2.22 2.22 0 1 1-2.22-2.22c.21 0 .43.03.63.09V9.27a5.6 5.6 0 0 0-.63-.04a5.6 5.6 0 1 0 5.6 5.6V9.7a8 8 0 0 0 4.41 1.33V7.75c-.47-.02-.93-.13-1.4-.32z"/></svg>
+                <span>TikTok</span>
+              </a>
+            </div>
+            <div class="col-md-3 col-6 fade-up delay-1">
+               <a class="social-link" href="https://discord.gg/reefnetwork" target="_blank" aria-label="Tiktok'da Takip Edin">
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.317 4.37a19.791 19.791 0 0 0-4.885-1.515a.074.074 0 0 0-.079.037c-.21.375-.444.864-.608 1.25a18.27 18.27 0 0 0-5.487 0a12.64 12.64 0 0 0-.617-1.25a.077.077 0 0 0-.079-.037A19.736 19.736 0 0 0 3.677 4.37a.07.07 0 0 0-.032.027C.533 9.046-.32 13.58.099 18.057a.082.082 0 0 0 .031.057a19.9 19.9 0 0 0 5.993 3.03a.078.078 0 0 0 .084-.028a14.09 14.09 0 0 0 1.226-1.994a.076.076 0 0 0-.041-.106a13.107 13.107 0 0 1-1.872-.892a.077.077 0 0 1-.008-.128a10.2 10.2 0 0 0 .372-.292a.074.074 0 0 1 .077-.01c3.928 1.793 8.18 1.793 12.062 0a.074.074 0 0 1 .078.01c.12.098.246.198.373.292a.077.077 0 0 1-.006.127a12.299 12.299 0 0 1-1.873.892a.077.077 0 0 0-.041.107c.36.698.772 1.362 1.225 1.993a.076.076 0 0 0 .084.028a19.839 19.839 0 0 0 6.002-3.03a.077.077 0 0 0 .032-.054c.5-5.177-.838-9.674-3.549-13.66a.061.061 0 0 0-.031-.03zM8.02 15.33c-1.183 0-2.157-1.085-2.157-2.419c0-1.333.956-2.419 2.157-2.419c1.21 0 2.176 1.096 2.157 2.42c0 1.333-.956 2.418-2.157 2.418zm7.975 0c-1.183 0-2.157-1.085-2.157-2.419c0-1.333.955-2.419 2.157-2.419c1.21 0 2.176 1.096 2.157 2.42c0 1.333-.946 2.418-2.157 2.418z"/></svg>
+                <span>Discord</span>
+              </a>
+            </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Social Links Section -->
+<section id="ReefSMPplayers" class="section bg-dark">
+  <div class="container">
+    <div class="section-title text-center fade-up">
+      <h2>🌊 What ReefSMP Players say</h2>
+            <p data-i18n="social_subtitle">What our players say about ReefSMP Minecraft server</p>
+          </div>
+          <div class="row g-4 justify-content-center">
+            <div class="col-md-3 col-6 fade-up">
+              <a class="social-link" href="#" target="_blank" aria-label="fab fa-tiktok">
+                <span>@HsHs_501</span>
+                <span>#1 server most active players & support just give it a shot u won't lose anything</span>
+              </a>
+            </div>
+            <div class="col-md-3 col-6 fade-up delay-1">
+              <a class="social-link" href="#" target="_blank" aria-label="Discord Sunucusuna Katılın">
+               
+                <span>@ItzMeNinjaa</span>
+                <span>This server is chill and <b>not</b> pay-to-win. I love the community and the features in the SMP.</span>
+              </a>
+            </div>
+            <div class="col-md-3 col-6 fade-up delay-1">
+              <a class="social-link" href="#" target="_blank" aria-label="Discord Sunucusuna Katılın">              
+                <span>@UNKN0W</span>
+                <span>ReefSMP is a calm server,the staff is really quick to answer at tickets + the economy is easy♥️ </span>
+              </a>
+            </div> 
+            <div class="col-md-3 col-6 fade-up delay-1">
+              <a class="social-link" href="#" target="_blank" aria-label="Discord Sunucusuna Katılın">              
+                <span>@Hinata</span>
+                <span>If you want a hard server, then definitely try this one. You’ll make friends and form a team or even a family. This server is fun and challenging.</span>
+              </a>
+            </div>
+            <div class="col-md-3 col-6 fade-up delay-1">
+              <a class="social-link" href="#" target="_blank" aria-label="Discord Sunucusuna Katılın">              
+                <span>@A7msx5</span>
+                <span>I’ve joined many servers with bad communities, but ReefSMP is different. The community is great, the Staffs are active, and we’re not just players, we’re a family.</span>
+              </a>
+            </div>    
+            <div class="col-md-3 col-6 fade-up delay-1">
+              <a class="social-link" href="#" target="_blank" aria-label="Discord Sunucusuna Katılın">              
+                <span>@Sabeks</span>
+                <span>I’ve joined many servers with bad communities, but ReefSMP is different. The community is great, the Staffs are active, and we’re not just players, we’re a family.</span>
+              </a>
+            </div>        
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- FAQ Section -->
+      <section id="faq" class="section">
+        <div class="container">
+          <div class="section-title text-center fade-up">
+            <h2 data-i18n="social_title">FAQ</h2>
+      <p>Frequently asked questions about ReefSMP</p>
+    </div>
+
+    <div class="accordion accordion-flush fade-up" id="faqAccordion">
+
+      <!-- FAQ 1 -->
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="faqOne">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapseOne">
+            How do I join ReefSMP?
+          </button>
+        </h2>
+        <div id="faqCollapseOne" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+          <div class="accordion-body">
+            Join using the IP <strong>ReefSMP.fun</strong>.
+          </div>
+        </div>
+      </div>
+
+      <!-- FAQ 2 -->
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="faqTwo">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapseTwo">
+            Cracked or premium?
+          </button>
+        </h2>
+        <div id="faqCollapseTwo" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+          <div class="accordion-body">
+            Both BedRock and premium accounts are supported Cracked Is coming soon.
+          </div>
+        </div>
+      </div>
+
+
+      
+      <!-- FAQ 3 -->
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="faqThree">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapseThree">
+            Is Bedrock Edition supported?
+          </button>
+        </h2>
+        <div id="faqCollapseThree" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+          <div class="accordion-body">
+            Yes, It supports bedrock! See the ip and port below!
+            <br><strong>IP:</strong> ReefSMP.fun  
+            <br><strong>Port:</strong> 19132
+          </div>
+        </div>
+      </div>
+
+      <!-- FAQ 4 -->
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="faqFour">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapseFour">
+            I got a getsockopt error, how do I fix it?
+          </button>
+        </h2>
+        <div id="faqCollapseFour" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+          <div class="accordion-body">
+            Try connecting using <strong>ReefSMP.fun:25565</strong>.  
+            If the issue persists, ask for help in our Discord.
+          </div>
+        </div>
+      </div>
+
+      <!-- FAQ 5 -->  
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="faqFive">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapseFive">
+            My amethyst tool disappeared from my vault, ender chest, or AH
+          </button>
+        </h2>
+        <div id="faqCollapseFive" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+          <div class="accordion-body">
+            This is a known visual issue.  
+            The timer may appear frozen (for example, showing 7H), but it continues running in the background.  
+            Once expired, the item is removed automatically and cannot be restored.
+          </div>
+        </div>
+      </div>
+
+      <!-- FAQ 6 -->
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="faqSix">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapseSix">
+            Where do I get help?
+          </button>
+        </h2>
+        <div id="faqCollapseSix" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+          <div class="accordion-body">
+            Use the in-game members or ask for help in our Discord server, Still need help? Open a ticket and we will help you ASAP.
+          </div>
+        </div>
+      </div>
+
+      <!-- FAQ 7 -->
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="faqSeven">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapseSeven">
+            Where can I find the rules?
+          </button>
+        </h2>
+        <div id="faqCollapseSeven" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+          <div class="accordion-body">
+            The rules are available in-game on our Discord and on the website.
+          </div>
+        </div>
+      </div>
+
+      <!-- FAQ 8 -->
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="faqEight">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapseEight">
+            Does the server reset?
+          </button>
+        </h2>
+        <div id="faqCollapseEight" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+          <div class="accordion-body">
+            Resets are very rare and will always be announced in advance.
+          </div>
+        </div>
+      </div>
+
+      <!-- FAQ 9 -->
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="faqNine">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapseNine">
+            Is AFK farming allowed?
+          </button>
+        </h2>
+        <div id="faqCollapseNine" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+          <div class="accordion-body">
+            Yes, AFK farming is allowed.  
+            Auto-clickers and exploits are not permitted.
+          </div>
+        </div>
+      </div>
+
+      <!-- FAQ 10 -->
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="faqTen">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapseTen">
+            How do I verify on Discord?
+          </button>
+        </h2>
+        <div id="faqCollapseTen" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+          <div class="accordion-body">
+            Join <strong>discord.gg/reefnetwork</strong> → Click the reaction → Done ✅
+          </div>
+        </div>
+      </div>
+
+      <!-- FAQ 11 -->
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="faqEleven">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapseEleven">
+            What happens if I lose an item due to a bug?
+          </button>
+        </h2>
+        <div id="faqCollapseEleven" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+          <div class="accordion-body">
+            If an item is lost due to a confirmed server-side issue, staff will investigate the situation.
+            Items are not guaranteed to be restored, especially if no evidence is available.
+          </div>
+        </div>
+      </div>
+
+      <!-- FAQ 12 -->
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="faqTwelve">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapseTwelve">
+            When i try to join, The MOTD Says Line A Line B
+          </button>
+        </h2>
+        <div id="faqCollapseTwelve" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+          <div class="accordion-body">
+            This is an common issue, We are trying to make an permanent fix to this. Please try the IP: <bold>ReefSMP.fun:19132</bold> If that doesnt work, Open a ticket in the discord: https://discord.gg/reefnetwork
+          </div>
+        </div>
+      </div>
+
+      <!-- FAQ 13 -->
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="faqthirteen">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapsethirteen">
+            My question is not listed here
+          </button>
+        </h2>
+        <div id="faqCollapsethirteen" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+          <div class="accordion-body">
+            Ask your question in our Discord and a staff member will help you.
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<section id="staffteam" class="section bg-dark">
+  <div class="container">
+    <div class="section-title text-center fade-up">
+      <h2>🌊 ReefSMP Staff Team 🌊</h2>
+      <p>Meet the team behind ReefSMP</p>
+    </div>
+
+    <!-- Owners & Managers -->
+    <div class="row g-4 justify-content-center">
+      <div class="col-md-3 col-6 fade-up">
+        <a class="social-link" href="#">
+          <span>@NoLimitMelon</span>
+          <span style="color:#00adfc; font-weight:700;">OWNER</span>
+        </a>
+      </div>
+
+      <div class="col-md-3 col-6 fade-up">
+        <a class="social-link" href="#">
+          <span>@Ziorix</span>
+          <span style="color:#00adfc; font-weight:700;">OWNER</span>
+        </a>
+      </div>
+
+      <div class="col-md-3 col-6 fade-up">
+        <a class="social-link" href="#">
+          <span>@N/A</span>
+          <span style="color:#757df1; font-weight:700;">Manager</span>
+        </a>
+      </div> 
+
+      <div class="col-md-3 col-6 fade-up">
+        <a class="social-link" href="#">
+          <span>@N/A</span>
+          <span style="color:#ff0000; font-weight:700;">Developer</span>
+        </a>
+      </div>
+      <div class="col-md-3 col-6 fade-up">
+        <a class="social-link" href="#">
+          <span>@Ytdirt567</span>
+          <span style="color:#ffe500; font-weight:700;">Sr Helper</span>
+        </a>
+      </div>      
+    </div>
+
+    <!-- Helpers (new row) -->
+    <div class="row g-4 justify-content-center mt-4">
+      <div class="col-md-3 col-6 fade-up">
+        <a class="social-link" href="#">
+          <span>@Alexclapz</span>
+          <span style="color:#ffe500; font-weight:700;">Sr Helper</span>
+        </a>
+      </div>
+
+      <div class="col-md-3 col-6 fade-up">
+        <a class="social-link" href="#">
+          <span>@Jqvl</span>
+          <span style="color:#ffe500; font-weight:700;">Sr Helper</span>
+        </a>
+      </div>
+      
+      <div class="col-md-3 col-6 fade-up">
+        <a class="social-link" href="#">
+          <span>@KingsFortYT</span>
+          <span style="color:#ffbb00; font-weight:700;">Helper</span>
+        </a>
+      </div>   
+        </a>    
+    </div>
+
+    <!-- under a;; -->
+    <div class="row g-4 justify-content-center mt-4">
+      <!--  
+
+      <div class="col-md-3 col-6 fade-up">
+        <a class="social-link" href="#">
+          <span>@HsHs</span>
+          <span style="color:#F5E284; font-weight:700;">Support</span>
+        </a>
+      </div>   
+        <div class="col-md-3 col-6 fade-up">
+        <a class="social-link" href="#">
+          <span>@Dindico00</span>
+          <span style="color:#F5E284; font-weight:700;">Support</span>
+        </a>    
+    </div> -->
+
+  </div>
+</section>
+
+
+    <!-- Footer -->
+    <footer class="footer-new">
+      <div class="footer-wave">
+        <svg viewBox="0 0 1200 120" preserveAspectRatio="none">
+          <path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z"></path>
+        </svg>
+      </div>
+      <div class="container">
+        <div class="footer-main">
+          <div class="row g-4">
+            <!-- Logo ve Açıklama -->
+            <div class="col-lg-3 col-md-6">
+              <div class="footer-brand">
+                <img src="256x256tblogo.png" alt="TurkBlock Logo" class="footer-logo">
+                <h4 class="footer-title">ReefSMP</h4>
+                <p class="footer-description" data-i18n="footer_description">
+                  ReefSMP is a community-driven Minecraft survival server supporting Premium & Cracked players. Join now and start your adventure
+                </p>
+                <div class="footer-server-ip">
+                  <span class="ip-label" data-i18n="server_ip_title">Server IP</span>
+                  <span class="ip-value">ReefSMP.fun</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Quick Links -->
+            <div class="col-lg-2 col-md-6">
+              <div class="footer-links">
+                <h5 class="footer-links-title" data-i18n="footer_quick_links">Quick Links</h5>
+                <ul>
+                  <li><a href="#rules" data-i18n="nav_rules">Rules</a></li>
+                  <li><a href="#tos" data-i18n="nav_tos">Terms</a></li>
+                  <li><a href="#privacy" data-i18n="nav_privacy">Privacy</a></li>
+                  <li><a href="#imprint" data-i18n="nav_imprint">Info</a></li>
+                  <li><a href="#faq" data-i18n="nav_faq">FAQ</a></li>
+                </ul>
+              </div>
+            </div>
+
+            <!-- Support & Contact -->
+            <div class="col-lg-3 col-md-6">
+              <div class="footer-links">
+                <h5 class="footer-links-title" data-i18n="footer_support">Support & Contact</h5>
+                <ul>
+                  <li>
+                    <i class="fas fa-phone"></i>
+                    <span>@nolimitmelon.official on discord</span>
+                  </li>
+                  <li>
+                    <i class="fas fa-map-marker-alt"></i>
+                    <span>United States</span>
+                  </li>
+                </ul>
+                <div class="footer-social">
+                  <a href="https://discord.gg/reefnetwork" target="_blank" rel="noopener" class="social-icon discord" aria-label="Discord Sunucusu">
+                    <i class="fab fa-discord"></i>
+                  </a>
+                  <a href="https://www.tiktok.com/@reefsmp0" target="_blank" rel="noopener" class="social-icon Twitter" aria-label="Twitter Hesabı">
+                    <i class="fab fa-tiktok"></i>
+                  </a>
+              <!--   <a href="https://youtube.com/@ReefSMP" target="_blank" rel="noopener" class="social-icon youtube" aria-label="YouTube Kanalı">
+                    <i class="fab fa-youtube"></i>
+                  </a>
+                  <a href="https://instagram.com/ReefSMP" target="_blank" rel="noopener" class="social-icon instagram" aria-label="Instagram Hesabı">
+                    <i class="fab fa-instagram"></i>
+                  </a> -->
+                </div>
+              </div>
+            </div>
+
+            <!-- Discord Widget -->
+            <div class="col-lg-4 col-md-6">
+              <div class="footer-discord">
+                <h5 class="footer-links-title" data-i18n="footer_discord">Discord Community</h5>
+                <iframe title="Discord Sunucu Widget" src="https://discord.com/widget?id=1414804706194358344&theme=dark" width="100%" height="300" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Footer Bottom -->
+        <div class="footer-bottom">
+          <div class="row align-items-center">
+            <div class="col-md-6 text-center text-md-start">
+              <p class="copyright mb-0" data-i18n="footer_copyright">© 2026 ReefSMP. All rights reserved. We do not have affiliation with any real world brands.</p>
+              <p class="copyright mb-0" data-i18n="footer_copyright">Protected by Cloudflare. We do not expose player IP addresses and mitigate DDoS attacks.</p>
+            </div>
+            <div class="col-md-6 text-center text-md-end">
+              <p class="mb-0">
+                <span data-i18n="footer_made_with">Made with ❤️ in United States</span>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="assets/js/i18n.js"></script>
+    <script src="assets/js/main.js"></script>
+  
+</body>
+</html>
+
